@@ -39,6 +39,7 @@ span {
 
 .maindiv img{
     width: 100%;
+    cursor: pointer;
 }
 
 .maindiv button{
@@ -53,4 +54,16 @@ span {
 #cart{
     margin-left: 20px;
     background-color: #05DF72;
+}
+
+
+footer{
+    text-align: center;
+    background-color:  #ff637e;
+    padding: 30px 0;
+    color: #fff;
+}
+
+footer span{
+    color: blue;
 }
