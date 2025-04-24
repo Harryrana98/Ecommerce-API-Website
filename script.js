@@ -23,7 +23,7 @@ function displayData(detaArr){
         addTocart.innerText="Add To Cart"
         addTocart.id="cart"
         // img.src=item.image
-        mainDiv.innerHTML=`<img src="${item.image}"><p>${item.title.split(" ").slice(0,3)+"..."}</p> <h2>$:${item.price}</h2>`
+        mainDiv.innerHTML=`<a href="/singleproduct.html"><img src="${item.image}"></a><p>${item.title.split(" ").slice(0,3)+"..."}</p> <h2>$:${item.price}</h2>`
         mainDiv.append(wishList,addTocart)
         result.append(mainDiv)
     })

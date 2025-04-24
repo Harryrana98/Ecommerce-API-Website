@@ -39,7 +39,7 @@ span {
 
 .maindiv img{
     width: 100%;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .maindiv button{
