@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 45px;
+  background-color: #ff637e;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu p,
+span {
+  margin-right: 20px;
+}
+
+#result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 45px;
+}
+
+.maindiv{
+    width: 280px;
+    box-shadow: 0 0 5px;
+    padding: 15px;
+}
+
+.maindiv img{
+    width: 100%;
+}
+
+.maindiv button{
+    border: none;
+    background-color:#FB64B6;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: #000;
+    cursor: pointer;
+}
+
+#cart{
+    margin-left: 20px;
+    background-color: #05DF72;
+}
