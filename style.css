@@ -27,43 +27,94 @@ span {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 18px;
-  margin:30px 45px;
+  margin: 30px 45px;
 }
 
-.maindiv{
-    width: 280px;
-    box-shadow: 0 0 5px;
-    padding: 15px;
-    margin-top: 10px;
+#results {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3.5rem 0;
 }
 
-.maindiv img{
-    width: 100%;
-    /* cursor: pointer; */
+.left {
+  width: 300px;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  width: 650px;
 }
 
-.maindiv button{
-    border: none;
-    background-color:#FB64B6;
-    padding: 5px 10px;
-    border-radius: 7px;
-    color: #000;
-    cursor: pointer;
+.right h2 {
+  width: 500px;
 }
 
-#cart{
-    margin-left: 20px;
-    background-color: #05DF72;
+.right button {
+  border: none;
+  background-color: #fb64b6;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #000;
+  cursor: pointer;
 }
 
-
-footer{
-    text-align: center;
-    background-color:  #ff637e;
-    padding: 30px 0;
-    color: #fff;
+.maindiv {
+  width: 280px;
+  box-shadow: 0 0 5px;
+  padding: 15px;
+  margin-top: 10px;
 }
 
-footer span{
-    color: blue;
+.maindiv img {
+  width: 100%;
+  /* cursor: pointer; */
+}
+
+.maindiv button {
+  border: none;
+  background-color: #fb64b6;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #000;
+  cursor: pointer;
+}
+
+#cart {
+  margin-left: 20px;
+  background-color: #05df72;
+}
+
+footer {
+  text-align: center;
+  background-color: #ff637e;
+  padding: 30px 0;
+  color: #fff;
+}
+
+footer span {
+  color: blue;
+}
+
+#loding {
+  border: 8px solid gray;
+  width: 100px;
+  margin: 45px auto;
+  height: 100px;
+  border-radius: 50%;
+  border-right-color: blue;
+  animation: round 0.8s infinite linear;
+  display: none;
+}
+
+@keyframes round{
+  from
+  {
+    transform: rotate(0deg);
+    
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
